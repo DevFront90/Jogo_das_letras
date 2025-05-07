@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/request.png"/>
+    <title>Jogo das Letras</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/resete.css"/>
+    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <!---->
+</head>
+<body>
+    <main class="container">
+
+        <div class="square">
+
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="logo"/>
+            </div>
+
+            <div class="space">
+
+                <div class="quantity" id="tentativas">
+                    <p><span>0</span> de 10 tentativas</p>
+                </div>
+
+                <div class="return" onclick="resetarJogo()">
+                    <img src="./assets/img/Frame.svg" alt="frame"/>
+                </div>
+
+            </div>
+
+            <div class="tip">
+
+                <div class="light">
+                    <img src="./assets/img/light.svg" alt="light"/>
+                </div>
+
+                <div class="description">
+                    <h3>Dica</h3>
+                    <p id="dica">Armazena dados e serviços pela internet.</p>
+                </div>
+
+            </div>
+
+            <div class="wrapper" id="palavra">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+
+            <div class="hunch">
+                <h3>Palpite</h3>
+
+                <div class="flex">
+                    <input type="text" id="palpite" maxlength="1">
+                    <button onclick="confirmar()">Confirmar</button>
+                </div>
+
+            </div>
+
+            <div class="border"></div>
+
+            <div id="usadas"></div>
+    
+
+        </div>
+
+      
+    </main>
+
+    <!--script js-->
+    <script src="./assets/js/script.js"></script>
+    <!---->
+    <!--biblioteca SweetAlert2 -->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!---->
+</body>
+</html>
