@@ -5,6 +5,8 @@ Bem-vindo ao **Jogo das Letras**, um jogo simples e divertido desenvolvido com *
 🎯 Como Jogar
 Monte a palavra correta utilizando as letras embaralhadas apresentadas na tela. Quando acertar, uma nova palavra aparece para continuar o desafio!
 
+![Jogo das letras](./)
+
 ## 🚀 Demonstração
 
 Você pode testar o jogo diretamente no seu navegador:
